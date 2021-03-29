@@ -1,0 +1,31 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motasemAlsqoor/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motasemAlsqoor/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/motasemAlsqoor/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}
